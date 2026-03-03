@@ -1,0 +1,24 @@
+{
+  "name": "volume-mixer-cli",
+  "version": "0.1.0",
+  "description": "Interactive macOS CLI for app/system/microphone volume control",
+  "bin": {
+    "volume-mixer": "./bin/volume-mixer.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node ./bin/volume-mixer.js",
+    "check": "node ./src/cli.js --self-test"
+  },
+  "keywords": [
+    "macos",
+    "audio",
+    "volume",
+    "cli",
+    "microphone"
+  ],
+  "license": "MIT"
+}
